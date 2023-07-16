@@ -1,13 +1,14 @@
-# Sistema Bancário Simples
+## Sistema Bancário Simples
 Este é um projeto de um sistema bancário simples desenvolvido em Python. O sistema permite realizar operações básicas, como depósito, saque e exibir o extrato da conta.
 
-# Funcionalidades
+## Funcionalidades
 O sistema possui as seguintes funcionalidades:
 
-Depósito: Permite realizar depósitos na conta bancária. O valor do depósito deve ser positivo.
-Saque: Permite realizar saques na conta bancária. O sistema verifica se há saldo suficiente, se o limite diário de saques não foi atingido e se o valor do saque não ultrapassa o limite máximo de R$ 500,00 por saque.
-Extrato: Exibe o extrato da conta bancária, listando todas as transações realizadas, incluindo depósitos e saques. Ao final, é exibido o saldo atual da conta. Caso não haja transações registradas, é exibida a mensagem "Não foram realizadas movimentações".
-Utilização
+- Depósito: Permite realizar depósitos na conta bancária. O valor do depósito deve ser positivo.
+- Saque: Permite realizar saques na conta bancária. O sistema verifica se há saldo suficiente, se o limite diário de saques não foi atingido e se o valor do saque não ultrapassa o limite máximo de R$ 500,00 por saque.
+- Extrato: Exibe o extrato da conta bancária, listando todas as transações realizadas, incluindo depósitos e saques. Ao final, é exibido o saldo atual da conta. Caso não haja transações registradas, é exibida a mensagem "Não foram realizadas movimentações".
+
+# Utilização
 Para utilizar o sistema bancário, siga as instruções abaixo:
 
 Execute o programa main.py.
