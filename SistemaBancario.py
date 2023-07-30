@@ -3,12 +3,15 @@ saldo = 0
 saques_diarios = 0
 saques_registrados = []
 
+
 def deposito(valor):
     global saldo
-    if valor > 0 :
+    if valor > 0:
         saldo += valor
         transacoes.append(f'Depósito: R$ {valor:.2f}')
-        print(f'Depósito de R$ {valor:.2f} realizado. Novo saldo: R$ {saldo:.2f}')
+        print(
+            f'Depósito de R$ {valor:.2f} realizado. Novo saldo: R$ {saldo:.2f}')
+
 
 def saque(valor):
     global saldo
@@ -24,6 +27,7 @@ def saque(valor):
     elif valor > 500:
         print('Limite máximo de R$ 500,00 por saque.')
 
+
 def extrato():
     print('Extrato:')
     if not transacoes:
@@ -34,6 +38,8 @@ def extrato():
     print(f'Saldo atual: R$ {saldo:.2f}')
 
 # Função para exibir o menu e realizar as interações
+
+
 def exibir_menu():
     print('----- Menu -----')
     print('1. Realizar depósito')
@@ -41,6 +47,7 @@ def exibir_menu():
     print('3. Exibir extrato')
     print('4. Sair')
     print()
+
 
 # Exemplo de uso das operações com o menu
 saldo_inicial = float(input('Digite o saldo inicial: '))
